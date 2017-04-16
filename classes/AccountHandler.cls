@@ -1,5 +1,5 @@
 /*
-This is a comment.
+You could have done better, my boy!
 */
 public class AccountHandler {
     public static Account insertNewAccount(String name) {
