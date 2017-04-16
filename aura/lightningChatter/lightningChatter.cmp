@@ -1,0 +1,3 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <iframe src="https://thesandeepmishra-dev-ed.my.salesforce.com/apex/lightningChatter" width="100%" height="1000px;" frameBorder="0"/>
+</aura:component>

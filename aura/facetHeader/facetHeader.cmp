@@ -1,0 +1,18 @@
+<aura:component >
+	<aura:attribute name="header" type="Aura.Component[]"/>
+    
+    <!-- This is used to put conditional markup. In component <c:helloFacets> I have used it.-->
+    <aura:attribute name="edit" type="Boolean" default="true"/>
+    <aura:if isTrue="{!v.edit}">
+        <ui:button label="Edit"/>
+        <aura:set attribute="else">
+        	You can’t edit this.
+        </aura:set>
+    </aura:if>
+    <!-- This conditional markup ends here -->
+    
+    <div>
+        <span class="header">{!v.header}</span><br/>
+        <span class="body">{!v.body}</span>
+    </div>
+</aura:component>

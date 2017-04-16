@@ -1,0 +1,21 @@
+<apex:page controller="ContinuationController" showChat="false" showHeader="false">
+   
+   <apex:form >
+      <!-- Invokes the action method when the user clicks this button. -->
+      <apex:commandButton action="{!startRequest}" 
+              value="Start Request" reRender="result"/> 
+   </apex:form>
+   
+   <apex:form >
+      <!-- Invokes the action method when the user clicks this button. -->
+      <apex:commandButton action="{!getWeather}" 
+              value="Get Weather" reRender="result"/> 
+   </apex:form>
+   
+   <!--
+       Uncomment this for calling it on page laod. 
+       <apex:outputText id="resultOnLoad" value="{!weather}" /> 
+  -->
+   
+   <apex:outputText id="result" value="{!result}" />
+</apex:page>

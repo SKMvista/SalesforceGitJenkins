@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" >
+    <ltng:require styles="{!$Resource.slds + '/assets/styles/lightning-design-system-ltng.css'}"/>
+    <aura:attribute name="races" type="String[]" default="['Race 1', 'Race 2', 'Race 3']" />
+	<div>
+        <aura:iteration items="{!v.races}" var="race">
+            <ui:outputText value="{!race}"/><p/>
+        </aura:iteration>
+    </div>
+</aura:component>

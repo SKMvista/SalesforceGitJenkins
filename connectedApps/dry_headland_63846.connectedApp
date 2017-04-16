@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://dry-headland-63846.herokuapp.com/canvasui</canvasUrl>
+        <locations>Chatter</locations>
+        <locations>Visualforce</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>sandeep_mishra122@yahoo.com</contactEmail>
+    <label>dry-headland-63846</label>
+    <oauthConfig>
+        <callbackUrl>https://dry-headland-63846.herokuapp.com/_auth</callbackUrl>
+        <consumerKey>3MVG9ZL0ppGP5UrCRmfU1NNHLS._DBSYnYkZ4adDGn5efbjkn_jC29wd9Vv1E1Q0MWK1hcrbv4DGyW8NqtbCz</consumerKey>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

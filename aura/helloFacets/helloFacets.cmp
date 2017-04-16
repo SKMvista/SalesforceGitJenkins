@@ -1,0 +1,22 @@
+<aura:component >
+	See how we set the header facet.<br/>
+    
+    <!-- edit=false, I used because i am using conditional markup from facetHeader -->
+    <c:facetHeader edit="false">
+        Nice body!
+        <aura:set attribute="header">
+        	Hello Header!
+        </aura:set>
+    </c:facetHeader>
+    
+    <!-- edit=false, I used because i am using conditional markup from facetHeader -->
+    <c:facetHeader edit="true">
+        Nice body!
+        <aura:set attribute="header">
+        	Hello Header!
+        </aura:set>
+    </c:facetHeader>
+    
+    <aura:text value="{!"/>
+    
+</aura:component>
